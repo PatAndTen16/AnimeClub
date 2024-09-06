@@ -1,0 +1,389 @@
+.drip:nth-child(1) {
+  border-color: #097f94;
+  height: 19px;
+  width: 19px;
+  animation-delay: -0.2s;
+  background: #097f94;
+  left: 762px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(2) {
+  border-color: #097f94;
+  height: 39px;
+  width: 39px;
+  animation-delay: -0.4s;
+  background: #097f94;
+  left: 686px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(3) {
+  border-color: #097f94;
+  height: 8px;
+  width: 8px;
+  animation-delay: -0.6s;
+  background: #097f94;
+  left: 660px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(4) {
+  border-color: #097f94;
+  height: 3px;
+  width: 3px;
+  animation-delay: -0.8s;
+  background: #097f94;
+  left: 842px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(5) {
+  border-color: #097f94;
+  height: 33px;
+  width: 33px;
+  animation-delay: -1s;
+  background: #097f94;
+  left: 931px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(6) {
+  border-color: #097f94;
+  height: 5px;
+  width: 5px;
+  animation-delay: -1.2s;
+  background: #097f94;
+  left: 202px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(7) {
+  border-color: #097f94;
+  height: 15px;
+  width: 15px;
+  animation-delay: -1.4s;
+  background: #097f94;
+  left: 547px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(8) {
+  border-color: #097f94;
+  height: 8px;
+  width: 8px;
+  animation-delay: -1.6s;
+  background: #097f94;
+  left: 995px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(9) {
+  border-color: #097f94;
+  height: 8px;
+  width: 8px;
+  animation-delay: -1.8s;
+  background: #097f94;
+  left: 317px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(10) {
+  border-color: #097f94;
+  height: 5px;
+  width: 5px;
+  animation-delay: -2s;
+  background: #097f94;
+  left: 407px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(11) {
+  border-color: #097f94;
+  height: 36px;
+  width: 36px;
+  animation-delay: -2.2s;
+  background: #097f94;
+  left: 429px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(12) {
+  border-color: #097f94;
+  height: 12px;
+  width: 12px;
+  animation-delay: -2.4s;
+  background: #097f94;
+  left: 995px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(13) {
+  border-color: #097f94;
+  height: 39px;
+  width: 39px;
+  animation-delay: -2.6s;
+  background: #097f94;
+  left: 301px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(14) {
+  border-color: #097f94;
+  height: 22px;
+  width: 22px;
+  animation-delay: -2.8s;
+  background: #097f94;
+  left: 970px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(15) {
+  border-color: #097f94;
+  height: 6px;
+  width: 6px;
+  animation-delay: -3s;
+  background: #097f94;
+  left: 829px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(16) {
+  border-color: #097f94;
+  height: 21px;
+  width: 21px;
+  animation-delay: -3.2s;
+  background: #097f94;
+  left: 412px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(17) {
+  border-color: #097f94;
+  height: 6px;
+  width: 6px;
+  animation-delay: -3.4s;
+  background: #097f94;
+  left: 478px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(18) {
+  border-color: #097f94;
+  height: 36px;
+  width: 36px;
+  animation-delay: -3.6s;
+  background: #097f94;
+  left: 315px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(19) {
+  border-color: #097f94;
+  height: 7px;
+  width: 7px;
+  animation-delay: -3.8s;
+  background: #097f94;
+  left: 920px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(20) {
+  border-color: #097f94;
+  height: 8px;
+  width: 8px;
+  animation-delay: -4s;
+  background: #097f94;
+  left: 169px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(21) {
+  border-color: #097f94;
+  height: 24px;
+  width: 24px;
+  animation-delay: -4.2s;
+  background: #097f94;
+  left: 871px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(22) {
+  border-color: #097f94;
+  height: 4px;
+  width: 4px;
+  animation-delay: -4.4s;
+  background: #097f94;
+  left: 554px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(23) {
+  border-color: #097f94;
+  height: 27px;
+  width: 27px;
+  animation-delay: -4.6s;
+  background: #097f94;
+  left: 252px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(24) {
+  border-color: #097f94;
+  height: 22px;
+  width: 22px;
+  animation-delay: -4.8s;
+  background: #097f94;
+  left: 722px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(25) {
+  border-color: #097f94;
+  height: 24px;
+  width: 24px;
+  animation-delay: -5s;
+  background: #097f94;
+  left: 161px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(26) {
+  border-color: #097f94;
+  height: 28px;
+  width: 28px;
+  animation-delay: -5.2s;
+  background: #097f94;
+  left: 120px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(27) {
+  border-color: #097f94;
+  height: 19px;
+  width: 19px;
+  animation-delay: -5.4s;
+  background: #097f94;
+  left: 360px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(28) {
+  border-color: #097f94;
+  height: 10px;
+  width: 10px;
+  animation-delay: -5.6s;
+  background: #097f94;
+  left: 510px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(29) {
+  border-color: #097f94;
+  height: 6px;
+  width: 6px;
+  animation-delay: -5.8s;
+  background: #097f94;
+  left: 807px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(30) {
+  border-color: #097f94;
+  height: 15px;
+  width: 15px;
+  animation-delay: -6s;
+  background: #097f94;
+  left: 712px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(31) {
+  border-color: #097f94;
+  height: 38px;
+  width: 38px;
+  animation-delay: -6.2s;
+  background: #097f94;
+  left: 429px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(32) {
+  border-color: #097f94;
+  height: 38px;
+  width: 38px;
+  animation-delay: -6.4s;
+  background: #097f94;
+  left: 189px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(33) {
+  border-color: #097f94;
+  height: 38px;
+  width: 38px;
+  animation-delay: -6.6s;
+  background: #097f94;
+  left: 918px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(34) {
+  border-color: #097f94;
+  height: 20px;
+  width: 20px;
+  animation-delay: -6.8s;
+  background: #097f94;
+  left: 144px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(35) {
+  border-color: #097f94;
+  height: 8px;
+  width: 8px;
+  animation-delay: -7s;
+  background: #097f94;
+  left: 482px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(36) {
+  border-color: #097f94;
+  height: 12px;
+  width: 12px;
+  animation-delay: -7.2s;
+  background: #097f94;
+  left: 75px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(37) {
+  border-color: #097f94;
+  height: 18px;
+  width: 18px;
+  animation-delay: -7.4s;
+  background: #097f94;
+  left: 219px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(38) {
+  border-color: #097f94;
+  height: 2px;
+  width: 2px;
+  animation-delay: -7.6s;
+  background: #097f94;
+  left: 826px;
+  margin-left: 60px;
+}
+
+.drip:nth-child(39) {
+  border-color: #097f94;
+  height: 9px;
+  width: 9px;
+  animation-delay: -7.8s;
+  background: #097f94;
+  left: 628px;
+  margin-left: 60px;
+}/*# sourceMappingURL=drip.css.map */

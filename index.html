@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="source.css"> 
+        <link rel="stylesheet" href="drip.css"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -43,6 +44,26 @@
                     <div class="drip"></div>
                     <div class="drip"></div>
                     <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
+                    <div class="drip"></div>
                     <h1>Anime 
                         <br>UNLIMITED !</h1>
                     <div class="drip"></div>
@@ -64,11 +85,51 @@
                   
                   </div>
             </div>
-            
-            <div class="layout">
-                <a href="#"><button type="button"><span></span>GROWTH AND CHANGE</button></a>
-                <a href="#"><button type="button"><span></span>INFLUENCE</button></a>
-            </div>
         </div>
+        <section class="page1">
+            <div class="p1Container reveal">
+                <h2>Contents of this website</h2>
+                <div class="cards">
+                    <div class="texts-cards">
+                        <h3>The origins</h3>
+                        <p>
+                            The original and intended use of performing the art.
+                        </p>
+                    </div>
+                    <div class="texts-cards">
+                        <h3>The evolution</h3>
+                        <p>
+                            How is it being used today in unexected fields
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <script type="text/javascript">
+            window.addEventListener('scroll', reveal);
+
+            function reveal(){
+                var reveals = document.querySelectorAll('.reveal');
+
+                for(var i = 0; i < reveals.length; i++) {
+                    var windowheight = window.innerHeight;
+                    var revealtop = reveals[i].getBoundingClientRect().top;
+                    var revealpoint = 150;
+
+                    if(revealtop < windowheight - revealpoint) {
+                        reveals[i].classList.add('active');
+                    }
+
+                    else {
+                        reveals[i].classList.remove('active');
+                    }
+                }
+            }
+
+        </script>
     </body>
 </html>
