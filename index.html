@@ -17,7 +17,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <title>Home</title>
     </head>
-    <body>
+    <body class="index">
         <header>
             <a href="#" class="logo"><i class="ri-heart-fill"></i><span>AU!</span></a>
 
@@ -89,7 +89,7 @@
         <section class="page1">
             <div class="p1Container reveal">
                 <h2>Contents of this website</h2>
-                <div class="cards">
+                <div class="rev-cards">
                     <div class="texts-cards">
                         <h3>The origins</h3>
                         <p>
@@ -106,6 +106,57 @@
             </div>
         </section>
 
+
+        <section class="section">
+            <br>
+            <div class="s2-cards">
+              <a href="#" class="card card-1">
+                <figure class="visual">
+                  <img
+                    class="card-img"
+                    src="https://external-preview.redd.it/ily-girl-by-mika-pikazo-original-v0-sayebFSqK6sn6q0QHytjV46y_-KnRTMXsVeWt8w2g6A.jpg?width=1080&crop=smart&auto=webp&s=5f44cc3810edc8d2a635e257d9ba2e42717d7d9e"
+                    alt="Person with a game controller in hand"
+                  />
+                  <figcaption class="figcaption">Conventions</figcaption>
+                </figure>
+              </a>
+              <a href="#" class="card card-2">
+                <figure class="visual">
+                  <img
+                    class="card-img"
+                    src="https://external-preview.redd.it/majin-vegeta-by-%E9%B4%A8negi-dragon-ball-z-v0-BKOWreESv40XGZF_0xzHn5UoA9jQCEXEiO9LvfU6E38.jpg?width=1080&crop=smart&auto=webp&s=ab12cdb22ca330aeff8e2bcb2f504f95ffbc9d37"
+                    alt="Person with curly hair in neon lighting"
+                  />
+                  <figcaption class="figcaption">Anime List</figcaption>
+                </figure>
+              </a>
+              <a href="#" class="card card-3">
+                <figure class="visual">
+                  <img
+                    class="card-img"
+                    src="https://preview.redd.it/rxakqx4d38j71.png?auto=webp&s=835cda86acc8620a6f9ab740aa295f36a96c2b93"
+                    alt="Person in vibrant neon lighting with abstract shapes"
+                  />
+                  <figcaption class="figcaption">ALT text</figcaption>
+                </figure>
+              </a>
+              <a href="#" class="card card-4">
+                <figure class="visual">
+                  <img
+                    class="card-img"
+                    src="https://external-preview.redd.it/bD-W_h-uRG6Cv3a7HISIwnDtYRIZQqt0_SIWfSS7pRw.jpg?auto=webp&s=022b9c257067df9243863ed7414b72046b22de15"
+                    alt="Person wearing a virtual reality headset in a blue-lit room"
+                  />
+                  <figcaption class="figcaption">Upcoming Events</figcaption>
+                </figure>
+              </a>
+            </div>
+            <br>
+          </section>
+
+
+
+
         <script type="text/javascript">
             window.addEventListener('scroll', reveal);
 
@@ -115,7 +166,7 @@
                 for(var i = 0; i < reveals.length; i++) {
                     var windowheight = window.innerHeight;
                     var revealtop = reveals[i].getBoundingClientRect().top;
-                    var revealpoint = 150;
+                    var revealpoint = 20;
 
                     if(revealtop < windowheight - revealpoint) {
                         reveals[i].classList.add('active');
