@@ -387,7 +387,7 @@ opacity: 1;
 
 
 .page1 .rev-cards .texts-cards:hover {
-background: var(--bg-color);
+background: #fff;
 color: var(--main-color);
 transform: scale(1.05);
 }
@@ -449,6 +449,7 @@ transform: scale(1.05);
     background-color: hsl(343, 98%, 52%);
 }
 
+
 .card-2::after {
     background-color: hsl(199, 100%, 38%);
 }
@@ -479,14 +480,22 @@ transform: scale(1.05);
     inline-size: 100cqi;
     border-radius: inherit;
     display: block;
+    opacity: .7;
     background: conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
     filter: grayscale();
     object-fit: cover;
+    transition-duration: .5s;
 }
 
 .figcaption {
     z-index: 2;
-    color: white;
+    color: #fff;
     font: 400 8cqi / normal system-ui, sans-serif;
+    transition-duration: .5s;
 }
+
+.card:hover .card-img {
+  opacity: 1;
+}
+
 }
