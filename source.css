@@ -185,7 +185,7 @@ header {
   }
   
 .cont {
-  margin-bottom: 100%;
+  margin-bottom: 150%;
   height: 110%;
   filter: url("#goo");
 }
