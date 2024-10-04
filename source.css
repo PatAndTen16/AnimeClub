@@ -235,7 +235,7 @@ overflow-x:hidden ;
   width: 100%;
   height: 90%;
   position: relative;
-  overflow: hidden;
+  overflow:visible;
   color: var(--hue-light);
   border-top: 15px solid var(--main-color);
   border-radius: 10px;
