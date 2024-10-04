@@ -238,7 +238,6 @@ overflow-x:hidden ;
   overflow: hidden;
   color: var(--hue-light);
   border-top: 15px solid var(--main-color);
-  border-bottom: 15px solid var(--main-color);
   border-radius: 10px;
   filter: url("#goo");
 }
