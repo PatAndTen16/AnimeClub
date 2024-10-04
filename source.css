@@ -177,7 +177,7 @@ header {
       right:2%;
   }
   .content {
-      background-size:contain;
+      background-size:1vh;
       background-position:initial;
   }
   section .cards {
