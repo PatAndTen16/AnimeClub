@@ -184,10 +184,8 @@ header {
       flex-direction: column;
   }
   
-.cont {
-  margin-bottom: 150%;
-  height: 110%;
-  filter: url("#goo");
+.drip {
+ display: none;
 }
   
 .page1 {
