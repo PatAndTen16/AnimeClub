@@ -23,10 +23,15 @@
 
             <ul class="nav">
                 <li><a href="index.html" class="Active">Home</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Uses</a></li>
-                <li><a href="#">Citation</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Upcoming</a></li>
+                <li><a href="#">The Board</a></li>
             </ul>
+
+
+            <div class="signin">
+              <div class="bx bx-menu" id="menu-icon"></div>
+          </div>
         </header>
         <div class="content">
             <div class="toptext">
@@ -117,7 +122,7 @@
                     src="https://external-preview.redd.it/ily-girl-by-mika-pikazo-original-v0-sayebFSqK6sn6q0QHytjV46y_-KnRTMXsVeWt8w2g6A.jpg?width=1080&crop=smart&auto=webp&s=5f44cc3810edc8d2a635e257d9ba2e42717d7d9e"
                     alt="Person with a game controller in hand"
                   />
-                  <figcaption class="figcaption">Conventions</figcaption>
+                  <figcaption class="figcaption">Culture</figcaption>
                 </figure>
               </a>
               <a href="#" class="card card-2">
@@ -137,7 +142,7 @@
                     src="https://preview.redd.it/rxakqx4d38j71.png?auto=webp&s=835cda86acc8620a6f9ab740aa295f36a96c2b93"
                     alt="Person in vibrant neon lighting with abstract shapes"
                   />
-                  <figcaption class="figcaption">ALT text</figcaption>
+                  <figcaption class="figcaption">E-Board</figcaption>
                 </figure>
               </a>
               <a href="#" class="card card-4">
@@ -147,7 +152,7 @@
                     src="https://external-preview.redd.it/bD-W_h-uRG6Cv3a7HISIwnDtYRIZQqt0_SIWfSS7pRw.jpg?auto=webp&s=022b9c257067df9243863ed7414b72046b22de15"
                     alt="Person wearing a virtual reality headset in a blue-lit room"
                   />
-                  <figcaption class="figcaption">Upcoming Events</figcaption>
+                  <figcaption class="figcaption">Upcoming events</figcaption>
                 </figure>
               </a>
             </div>
@@ -156,7 +161,39 @@
 
 
 
+          <script type="text/javascript">
+            window.addEventListener('scroll', reveal);
 
+            function reveal(){
+                var reveals = document.querySelectorAll('.reveal');
+
+                for(var i = 0; i < reveals.length; i++) {
+                    var windowheight = window.innerHeight;
+                    var revealtop = reveals[i].getBoundingClientRect().top;
+                    var revealpoint = 150;
+
+                    if(revealtop < windowheight - revealpoint) {
+                        reveals[i].classList.add('active');
+                    }
+
+                    else {
+                        reveals[i].classList.remove('active');
+                    }
+                }
+            }
+
+        </script>
+        <script type="text/javascript">
+          let menu = document.querySelector('#menu-icon');
+          let nav = document.querySelector('.nav');
+
+
+          menu.onclick = () => {
+              menu.classList.toggle('bx-x');
+              nav.classList.toggle('open');
+          }
+
+        </script>
         <script type="text/javascript">
             window.addEventListener('scroll', reveal);
 
